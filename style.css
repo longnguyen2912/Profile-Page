@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav{
+    height: 50px;
+    width:100%;
+    background-color: rgb(107, 105, 105);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+}
+.nav-title{
+    margin-left: 200px;
+}
+.nav-links{
+    margin-left: 50px;
+    width: 500px;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    margin-right: 120px;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 90px;
+    background-color: aqua;
+    color: white;
+    border-color: black;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+}
+.ProfilePicture{
+    border-radius: 50%;
+    width: 200px;
+    background-color: lightblue;
+}
+.ProfilePicture1{
+    border-radius: 50%;
+    width: 40px;
+}
+.Container{
+    width: 50%;
+    margin-left: 500px;
+    padding: 20px;
+}
+.Bottom{
+    width: 50%;
+}
+.Middle{
+    display: flex;
+    flex-direction: row;
+}
+.edit, .Location{
+    border-radius: 50%;
+    width: 30px;
+}
+.Profile{
+    padding: 20px;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, blue 0%, blue 20%, white 80%, white 100%);
+    margin-top: 80px;
+    width: 1000px;
+    margin-left: 270px;
+    justify-content: space-between;
+}
+.educationBox{
+    padding: 0px;
+    height: 150px;
+    width: 1000px;
+    margin-left: 270px;
+    justify-content: space-between;
+    margin-top: 80px;
+    border: 1px solid black;
+}
+.connectionBox{
+    padding: 0px;
+    height: 100px;
+    width: 300px;
+    margin-top: 100px;
+
+}
+.yourConnection{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    height: 268px;
+    width: 300px;
+    border: 1px solid grey;
+}
+.two{
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+.five{
+    color: black;
+    border-radius: 40px;
+    background-color: white;
+}
+.connectionTitle{
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.connectionTitle2{
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.connection{
+    border: 1px solid grey;
+    width: 300px;
+    height: 200px;
+
+}
+.line1, .line2 {
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+}
+.Todd, .phil{
+    margin-left: 0px;
+}
+.possible{
+    margin-left: 10px;
+}
+.view{
+    margin-top: 10px;
+    padding: 20px;
+    height: 58px;
+    border: 1px solid grey;
+}
+.title{
+    padding: 10px;
+    margin: auto;
+    width: 1000px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.info{
+    padding: 10px;
+}
